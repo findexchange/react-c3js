@@ -67,6 +67,14 @@ class C3Chart extends React.Component {
     if (!this.chart) {
       this.chart = this.generateChart(findDOMNode(this), config);
     }
+
+    if (config.axis.y.min) {
+      this.chart.internal.config.axis_y_min = config.axis.y.min;
+    }
+    if (config.axis.y.max) {
+      this.chart.internal.config.axis_y_max = config.axis.y.max;
+    }
+
     this.loadNewData(config.data);
   }
 
