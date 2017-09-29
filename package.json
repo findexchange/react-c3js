@@ -33,7 +33,6 @@
   "peerDependencies": {
     "react": "^15.0.0",
     "react-dom": "^15.0.0"
-
   },
   "dependencies": {
     "c3": "^0.4.11",
