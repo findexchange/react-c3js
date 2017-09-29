@@ -35,7 +35,8 @@
     "react-dom": "^15.0.0"
   },
   "dependencies": {
-    "c3": "^0.4.11"
+    "c3": "^0.4.11",
+    "prop-types": "^15.5.8"
   },
   "devDependencies": {
     "@types/c3": "^0.4.37",
